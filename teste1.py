@@ -18,7 +18,6 @@ def click_igual():
     if matematica == "multiplicacao":
         visor.insert(0, p_numero * float(segundo_numero))
 
-
 def click_soma():
     primeiro_numero = visor.get()
     global p_numero
@@ -50,7 +49,6 @@ def click_mult():
     matematica = "multiplicacao"
     p_numero = float(primeiro_numero)
     visor.delete(0, END)
-
 
 def click_ponto():
     visor.insert(END, ".")
@@ -100,7 +98,6 @@ bt2.place(x=60, y=210)
 bt_ponto = Button(master, text=".", bg="lightblue",pady=14, padx=15, bd=4, command=click_ponto)
 bt_ponto.place(x=60, y=265)
 
-
 #Coluna 3:
 
 bt9 = Button(master, text="9", bg="lightblue",pady=14, padx=14, bd=4, command= lambda: click_button(9))
@@ -114,7 +111,6 @@ bt3.place(x=110, y=210)
 
 bt_exp = Button(master, text="EXP", bg="silver",pady=14, padx=7, bd=4)
 bt_exp.place(x=110, y=265)
-
 
 #Coluna 4:
 
