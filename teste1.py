@@ -45,6 +45,20 @@ bt3.place(x=110, y=210)
 bt_ponto = Button(master, text=".", bg="green",pady=14, padx=15, bd=4)
 bt_ponto.place(x=110, y=265)
 
+#Coluna 4:
+
+bt_dividir = Button(master, text="/", bg="lightblue",pady=14, padx=14, bd=4)
+bt_dividir.place(x=160, y=100)
+
+bt_multiplicar = Button(master, text="*", bg="lightblue",pady=14, padx=14, bd=4)
+bt_multiplicar.place(x=160, y=155)
+
+bt_subtrair = Button(master, text="-", bg="lightblue",pady=14, padx=14, bd=4)
+bt_subtrair.place(x=160, y=210)
+
+bt_somar = Button(master, text="+", bg="lightblue",pady=14, padx=14, bd=4)
+bt_somar.place(x=160, y=265)
+
 master.resizable(False, False)
 master.geometry("280x380")
 master.mainloop()
