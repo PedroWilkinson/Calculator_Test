@@ -66,8 +66,11 @@ def click_button(numero):
 lb1 = Label(master, text="CALCULADORA", font=("verdana", 20, "bold"), pady=10)
 lb1.pack()
 
-visor = Entry(master, bg="lightblue", bd=2)
+visor = Entry(master, width= 80, bg="lightblue", bd=2)
 visor.pack()
+
+lb2 = Label(master, text="   by Dev.pedromatos@gmail.com", font=("verdana", 10, "bold"), pady=10)
+lb2.place(x=2, y=320)
 
 #Coluna 1:
 
